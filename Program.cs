@@ -22,9 +22,12 @@ namespace desafio001
             var p = new Pessoa();
             p.Nome = "joão";
             p.Idade = 12;
+            //arrumar a data de nascimento
             p.DataDeNascimento = 03/08/1990;
+            // Cpf é string 
             p.Cpf = 123456789;
             p.RA = 17024269;
+            // bool 
             p.Sexo = "masculino";
             p.Formado = "sim";
 
