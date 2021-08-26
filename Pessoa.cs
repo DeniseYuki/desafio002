@@ -14,7 +14,7 @@ namespace Desafio002
         public DateTime DataNascimento { get; set;}
 
         //public bool SexoGenero { get; set;}
-        public string SexoGenero(bool Genero){
+        public string Masculino (bool Genero){
             Genero = true;
             string textoReturn = "";
             if (Genero)

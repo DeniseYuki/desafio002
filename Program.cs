@@ -26,7 +26,7 @@ namespace desafio001
 
                 //p.SexoGenero(true);
 
-                Console.WriteLine(p.SexoGenero(true));
+                Console.WriteLine(p.Masculino(true));
                 p.Formado = "sim";
 
             var listP = new List<Pessoa>();
@@ -50,7 +50,7 @@ namespace desafio001
             }
             foreach (var aluno in listP)
             {
-                Console.WriteLine(p.SexoGenero(true));
+                Console.WriteLine(p.Masculino(true));
                 Console.WriteLine(aluno.Nome + " tem " + aluno.Idade + " anos");
                 //return textoReturn;
             }
